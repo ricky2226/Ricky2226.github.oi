@@ -403,16 +403,16 @@
             <h2>CONTACTO</h2>
             <div class="fila">
                 <!-- Formulario -->
-                <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
+                <form class="form=registers"
+     action="https://formspree.io/f/xdknrven"
+    method="post">
+    
+    <input class="controls" type ="text"  name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls" type ="text"  name="apellidos" id="apellidos" placeholder="Ingrese su Apellidos">
+    <input class="controls" type ="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <textarea class="controls" name="message" cols="30" rows="10" placeholder="Asunto"></textarea>
+    <input class="botons" type="submit" value="ENVIAR">
+     </form>
                 </div>
                 <!-- Mapa -->
                 <div class="col">
